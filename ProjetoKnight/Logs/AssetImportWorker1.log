@@ -1,0 +1,492 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/horlab306/Documents/Github/ProjetoKnight/ProjetoKnight
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58967
+Successfully changed project path to: C:/Users/horlab306/Documents/Github/ProjetoKnight/ProjetoKnight
+C:/Users/horlab306/Documents/Github/ProjetoKnight/ProjetoKnight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 104.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/horlab306/Documents/Github/ProjetoKnight/ProjetoKnight/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R5 430 (ID=0x6611)
+    Vendor:   ATI
+    VRAM:     2028 MB
+    Driver:   27.20.20903.8001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013500 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 89.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011128 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\horlab306\Documents\Github\ProjetoKnight\ProjetoKnight\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\horlab306\Documents\Github\ProjetoKnight\ProjetoKnight\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.2 KB). Loaded Objects now: 4525.
+Memory consumption went from 151.7 MB to 151.5 MB.
+Total: 3.532600 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.247900 ms MarkObjects: 2.812400 ms  DeleteObjects: 0.189100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1154856.680183 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/HUD/hud-tileset.png
+  artifactKey: Guid(ba4c1b66a6fed40839361add6604a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/HUD/hud-tileset.png using Guid(ba4c1b66a6fed40839361add6604a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d7385b4bf27b35f1bf6e36b0e9a4e') in 0.160185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.590577 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/rope-cave.png
+  artifactKey: Guid(44ca2818e5fe248209ff90a29631dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/rope-cave.png using Guid(44ca2818e5fe248209ff90a29631dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e0a04f65c16f692507475402f002ee') in 0.028381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sunset.png
+  artifactKey: Guid(6b5e1946610c0427daba78d1c127a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sunset.png using Guid(6b5e1946610c0427daba78d1c127a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec1a0b8095d17bbbcbb24839bc9d5ac') in 0.023625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.250094 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-cave.png
+  artifactKey: Guid(6f0a2de085751482c98698f916b8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-cave.png using Guid(6f0a2de085751482c98698f916b8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd70b34c62ccbb36c040fee4ae4daab') in 0.037544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/fp-letter.png
+  artifactKey: Guid(9e67ba42ec65b42cc9cab4fc05f55779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/fp-letter.png using Guid(9e67ba42ec65b42cc9cab4fc05f55779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e8d065e4b4428de450f9c00c8c6c1f') in 0.026231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/rock-cave.png
+  artifactKey: Guid(f9a0b55cacd7940b4be71d6684f6691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/rock-cave.png using Guid(f9a0b55cacd7940b4be71d6684f6691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18d7e508055569cafa1e2e60037c520') in 0.045607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.092109 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/chest-opened.png
+  artifactKey: Guid(f2ae7d277262c490a8ded2753967c6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/chest-opened.png using Guid(f2ae7d277262c490a8ded2753967c6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996d2e7e4838e5f27a32e10eb5f70faf') in 0.031586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/door-red.png
+  artifactKey: Guid(5de9a771aeb5040aea57a8f3333a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/door-red.png using Guid(5de9a771aeb5040aea57a8f3333a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce721cbff949c68b18e68f893379264') in 0.023160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rope-cave.png
+  artifactKey: Guid(20743f1585288431a99951d033e04150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rope-cave.png using Guid(20743f1585288431a99951d033e04150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886a28323a8b7005197bda35505113cb') in 0.025176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/door-yellow.png
+  artifactKey: Guid(0a57b9f95a3054578891b32d0e97e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/door-yellow.png using Guid(0a57b9f95a3054578891b32d0e97e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e40a98d4b096db1aacb040266a7a51') in 0.022848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rock.png
+  artifactKey: Guid(d3167b2b2e2014d77a620512282042a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rock.png using Guid(d3167b2b2e2014d77a620512282042a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e749095b50aa18eaa054ae92919daca7') in 0.018113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rope.png
+  artifactKey: Guid(9709793984f3845deb1697b78b89f744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/sprites/rope.png using Guid(9709793984f3845deb1697b78b89f744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5db1780d5e73771675b4c898e1a7dfd') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.633752 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/bomb.png
+  artifactKey: Guid(90a177c6fcc6045b3817e7b3d2b189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/bomb.png using Guid(90a177c6fcc6045b3817e7b3d2b189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989f0a53ad110bd16070da0341f1311') in 0.023945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/sword.png
+  artifactKey: Guid(ad4bde4ff881b433c9782cb194049b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/sword.png using Guid(ad4bde4ff881b433c9782cb194049b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c9f846b4b4a8049c1578367c21da88') in 0.024603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/red.png
+  artifactKey: Guid(ccfe629d1b9de4ac7b9e5d4d34fa4bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/red.png using Guid(ccfe629d1b9de4ac7b9e5d4d34fa4bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f291fb16dbcfa0f114d00d52867028') in 0.029818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/green.png
+  artifactKey: Guid(0a383cab99e134bdbbeff62cbb6af271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/green.png using Guid(0a383cab99e134bdbbeff62cbb6af271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6b9706d690b4ac127d837dceacd77b') in 0.031269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/key.png
+  artifactKey: Guid(5b20cbe9bfc2a4e89acade0bc84473f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/key.png using Guid(5b20cbe9bfc2a4e89acade0bc84473f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c31dd6570385db563e31d1280d646b') in 0.025698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/yellow.png
+  artifactKey: Guid(1cd5b9938edbb4ec1a4978eeeea8a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/yellow.png using Guid(1cd5b9938edbb4ec1a4978eeeea8a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6882f8e9b52e9b7cd873f6c553b28cf') in 0.019893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.032286 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/coin/coin2.png
+  artifactKey: Guid(cea43b012970646e5ada8c3c18805eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/coin/coin2.png using Guid(cea43b012970646e5ada8c3c18805eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a321151cc855fa37cf7acfed723a2f1e') in 0.028272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/coin/coin4.png
+  artifactKey: Guid(42aa4571d2ad64f44b7403cae8ba29dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/coin/coin4.png using Guid(42aa4571d2ad64f44b7403cae8ba29dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7251d18f71f15585cc75e847ae583') in 0.018200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.163417 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/button/button2.png
+  artifactKey: Guid(47ba66966db814924a31c648ce90dfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/button/button2.png using Guid(47ba66966db814924a31c648ce90dfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5c17fcf85e97bbb01b944b049e7688') in 0.016829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.960629 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png
+  artifactKey: Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png using Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80362b3272dd03879098b48190509804') in 0.037505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water3.png
+  artifactKey: Guid(4787563aed93c41f7ba595a4faaa7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water3.png using Guid(4787563aed93c41f7ba595a4faaa7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf357f48fceccbdf243542984568562') in 0.015400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.870329 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash2.png
+  artifactKey: Guid(45a6295af493c45cab251f994a810e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash2.png using Guid(45a6295af493c45cab251f994a810e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055f8ead4eb1a976cf755aedbc593791') in 0.032678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash7.png
+  artifactKey: Guid(9d72b9e4126874922a8219d995e5d89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash7.png using Guid(9d72b9e4126874922a8219d995e5d89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0223bdacc10f56c09433c7ef5557a461') in 0.020653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash4.png
+  artifactKey: Guid(791c26f485ca1458e9675b66963f94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash4.png using Guid(791c26f485ca1458e9675b66963f94bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9101e44f9ffb20b6a0120953b40f98e7') in 0.021479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash3.png
+  artifactKey: Guid(ae93a3948ba2947b0a2f59bf2102469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-splash/splash3.png using Guid(ae93a3948ba2947b0a2f59bf2102469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d176b62d00189f44fac61017af1835d') in 0.013779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.402690 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow2.png
+  artifactKey: Guid(110473ea83299431ea9e0240e0d25eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow2.png using Guid(110473ea83299431ea9e0240e0d25eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ec45d59b838c9e7fce4a29068ae1a') in 0.017583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow9.png
+  artifactKey: Guid(dc16d6e0b95684f15b6f314e04ef4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow9.png using Guid(dc16d6e0b95684f15b6f314e04ef4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52b0202650f9f1cc735ff51f48c28be') in 0.025915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow4.png
+  artifactKey: Guid(aa9716c46c0184a56ad2226071d8a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow4.png using Guid(aa9716c46c0184a56ad2226071d8a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a3a6f76d42233174849311e217250') in 0.023710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow5.png
+  artifactKey: Guid(ad21d963b3dba44c380f9073b8877ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow5.png using Guid(ad21d963b3dba44c380f9073b8877ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2874c28261be970a4bd78d365fd403f7') in 0.019569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow6.png
+  artifactKey: Guid(f8db20e0bd23944d3b0eca2a041df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb_yellow/orb-yellow6.png using Guid(f8db20e0bd23944d3b0eca2a041df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3708fb8d523dbac388b154c3035b6f2d') in 0.015798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127541 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red2.png
+  artifactKey: Guid(db9947628fb184366a9640981ca6b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red2.png using Guid(db9947628fb184366a9640981ca6b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2cb2806b9ed01b3196622160e8eef6') in 0.016298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red4.png
+  artifactKey: Guid(97161c386bd77442aa3efd20d312b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red4.png using Guid(97161c386bd77442aa3efd20d312b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4632e99f9a9851be501d574982f9ff9e') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red8.png
+  artifactKey: Guid(6b0233d2b322344dfac6807a5e41a935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red8.png using Guid(6b0233d2b322344dfac6807a5e41a935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea925ca3222130ba2220b16068bab8') in 0.023395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red5.png
+  artifactKey: Guid(ab5eca790c91840b7bdb6b7f229cba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-red/orb-red5.png using Guid(ab5eca790c91840b7bdb6b7f229cba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c192c0c15641d0e8e1c9d0f8e9f708d') in 0.018341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.058689 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green2.png
+  artifactKey: Guid(f5124220371214c4f8fc0f7b562a30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green2.png using Guid(f5124220371214c4f8fc0f7b562a30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8792a202c3b96f470f820539e84fa70') in 0.017160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green8.png
+  artifactKey: Guid(b834ece568bfa46b7bc073f3fae08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green8.png using Guid(b834ece568bfa46b7bc073f3fae08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4428b0b13460bc3139c47e2b5028c21') in 0.027578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green6.png
+  artifactKey: Guid(411fb3ddd328c4113bd5781754b14daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green6.png using Guid(411fb3ddd328c4113bd5781754b14daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8815d52dff0e4e8d665851ca0a56943e') in 0.026105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green3.png
+  artifactKey: Guid(9f3908add5d44461daf07db5a37a476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green3.png using Guid(9f3908add5d44461daf07db5a37a476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9b135eff02bc2a5d17f7e689ba1fc8') in 0.019045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green12.png
+  artifactKey: Guid(fbb2ffa6e5ef246b589e3fc85366844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green12.png using Guid(fbb2ffa6e5ef246b589e3fc85366844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bf68b8926371dc41b01999e9d3fffa') in 0.022408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green9.png
+  artifactKey: Guid(638007722298845509efdd2bb94cbf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-green/orb-green9.png using Guid(638007722298845509efdd2bb94cbf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bcabe8b6b22da827b3231522908dd9') in 0.023511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.591178 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue2.png
+  artifactKey: Guid(aac8ea89e6044492d96d1d6691957f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue2.png using Guid(aac8ea89e6044492d96d1d6691957f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74245fd76f4bc31c8bba6ce56c09be08') in 0.026946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue3.png
+  artifactKey: Guid(905ff5e932e6c4c30a3b0110151d08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue3.png using Guid(905ff5e932e6c4c30a3b0110151d08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4887d5c22f84363f0078297c599cc2') in 0.018503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue5.png
+  artifactKey: Guid(ee72c1749229f4f758dc186248e7b2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/orb-blue/orb-blue5.png using Guid(ee72c1749229f4f758dc186248e7b2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c43baf7eb499c65a0da99bc0ce3fd30') in 0.018542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.239137 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/FX/fire/fire2.png
+  artifactKey: Guid(6fbee84dc53f64dcaa98cbee60d5ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/FX/fire/fire2.png using Guid(6fbee84dc53f64dcaa98cbee60d5ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1078bb4ef980d7d12d6010cfc38acf47') in 0.032273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/FX/fire/fire3.png
+  artifactKey: Guid(bdf6c71b79ec247369678d9f8c0505f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/FX/fire/fire3.png using Guid(bdf6c71b79ec247369678d9f8c0505f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234851190a2a5bca03edaf584e9809b4') in 0.015290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.793113 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/FX/feedback/shot-2.png
+  artifactKey: Guid(c9ef8f772afb94734a56aaaab85f0f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/FX/feedback/shot-2.png using Guid(c9ef8f772afb94734a56aaaab85f0f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d075b0c35b890e41fb5a5048ef98360') in 0.029664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/FX/feedback/shot-4.png
+  artifactKey: Guid(bdbfc477c98274c64814b3f0d5b6cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/FX/feedback/shot-4.png using Guid(bdbfc477c98274c64814b3f0d5b6cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec13a35f95c1a13def2658c148a6773') in 0.022508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.526545 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/2.png
+  artifactKey: Guid(f4ada3c98cb59417fae316f6fc0d6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/2.png using Guid(f4ada3c98cb59417fae316f6fc0d6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dd28bba94ed9dddff443b6d488b0ed') in 0.020686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.774694 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/tileset-world.png
+  artifactKey: Guid(b8814c83d33f044eaa43a507df945000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/tileset-world.png using Guid(b8814c83d33f044eaa43a507df945000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c478efd1c8f4ee3cfadba23baffbea') in 0.030995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.064364 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/sea2.png
+  artifactKey: Guid(dd564ae3b33bb46c9b5194948f9fb824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/sea2.png using Guid(dd564ae3b33bb46c9b5194948f9fb824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dae98af7ee9f9f451a8e87b31b50da4') in 0.028788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/sea3.png
+  artifactKey: Guid(0a6b211fa7f564124a73161b77f6ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/sea3.png using Guid(0a6b211fa7f564124a73161b77f6ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ba81432e886edbc711aa7e8bcab477') in 0.027144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/shore4.png
+  artifactKey: Guid(456b74042e7054ff8b720e5d806d8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/shore4.png using Guid(456b74042e7054ff8b720e5d806d8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dba9a12afd96b6af14823624fb70f9') in 0.023010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/shore3.png
+  artifactKey: Guid(2d6ffd36bbd3242b49a183cea67bd712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sea/shore3.png using Guid(2d6ffd36bbd3242b49a183cea67bd712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68024f290e4deb8767b4795d5c707f56') in 0.022493 seconds 
